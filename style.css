@@ -1,0 +1,439 @@
+/* comun en todas las paginas */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Questrial', sans-serif;
+    background-color: #F3F6FB;
+}
+body h1{
+    font-family: 'Rozha One', serif;
+    font-size: 50px;
+}
+body h2{
+    font-family: 'Rozha One', serif;
+    font-size: 30px;
+}
+body h3{
+    font-size: 20px;
+}
+.nav{
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+}
+.nav img{
+    width: 82px;
+    height: 72px;
+    margin-top: 15px;
+
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    align-self: right;
+    height: fit-content;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+.nav ul li a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 20px;
+}
+.nav ul li a:hover{
+color: #DFDAD7;
+text-decoration: overline;
+}
+
+
+@media screen and (max-width: 768px){
+    body h1{
+        font-family: 'Rozha One', serif;
+        font-size: 35px;
+    }
+    body h2{
+        font-family: 'Rozha One', serif;
+        font-size: 25px;
+    }
+    body h3{
+        font-size: 20px;
+    }
+    .nav{
+        flex-direction: column;
+     }
+     .nav ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        height: fit-content;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .nav li{
+        margin-top: 10px;
+    }
+    .nav ul li a{
+        color: black;
+        font-size: 12px;
+    }
+    
+    .nav ul li a:hover{
+        font-size: 14px;
+    }
+    .nav img{
+        width: 40px;
+        height: 35px;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+}
+
+/* index.html */
+
+.bienvenidos-banner{
+    background-color: #003A48;
+    background-image: url(./imagenes/bg/Homebanner.jpg);
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+}
+@media screen and (max-width: 768px) {
+    .bienvenidos-banner{
+        width: auto;
+        height:100vh;
+    }
+}
+
+.banner1{
+    color: #F3F6FB;
+    text-align: center;
+    margin-top: 20%;
+}
+.about-me-index{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 350px;
+    grid-template-rows: repeat(2, 200px);
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+.about-me-index img{
+    width: 450px;
+    height: 450px;
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+.about-me-index h2{
+    color: #003A48;
+    margin-top: 100px;
+}
+.about-me-index p{
+    color: #3D3E40;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.boton1 {
+    background-color: #004445;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    box-shadow: 0 8px 6px -6px gray;
+    margin-top: 20px;;
+    padding: 3%;
+    }
+.boton1 a{
+       color:#D3CBC8;
+       font-weight: 500;
+       font-size: 20px;
+       text-decoration: none;
+    }
+
+@media screen and (max-width: 768px) {
+    .about-me-index{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .about-me-index img{
+        width: 250px;
+        height: 250px;
+    }
+    .about-me-index h2{
+        margin-top: 50px;
+    }
+    .about-me-index p{
+        color: #3D3E40;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .boton1 {
+        margin-top: 25px;
+        margin-right: 40px;;
+        }
+    .boton1 a{
+           color:#D3CBC8;
+           font-weight: 500;
+           font-size: 14px;
+           text-decoration: none;
+        }
+}
+
+#portfolio-index{
+    background-color: #016A75;
+    width:100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#portfolio-index a{
+    color: #E1C7B0;
+    font-size: 20px;
+}
+#portfolio-index a:hover{
+    font-size: 25px;
+}
+.boton2 a{
+       color:#004445;
+       font-weight: 500;
+       font-size: 30px;
+       text-decoration: none;
+    }
+#mixmatch-index {
+    background-color: #DFDAD7;
+    background-image: url(./imagenes/bg/homebanner2.png);
+    background-size: cover;
+    width:100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#mixmatch-index h2{
+    color: #3D3E40;
+}
+#mixmatch-index p{
+    font-size: 16px;
+}
+
+#mixmatch-index a{
+    margin: 20px;
+    color: #003A48;
+    font-size: 20px;
+}
+#mixmatch-index a:hover{
+    font-size: 25px;
+}
+.free-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 100vh;
+}
+.free-content h2{
+    color: #018F98;
+    margin-bottom: 20px;
+}
+.free-content-fotos img{
+  width: 400px;
+  height: 400px;
+}
+@media screen and (max-width: 768px) {
+
+.free-content h2{
+    margin-bottom: 5px;
+}
+.free-content-fotos img{
+  width: 200px;
+  height: 200px;
+}
+}
+/* fin del index.html */
+
+/* comienzo de whoiam.html */
+
+.whoiam-contenedor{
+    background-color: #D3CBC8;
+    width: 1440px;
+    height: 540px;
+    margin-top: 60px;
+}
+.whoiam-contenedor h1{
+    text-align: right;
+}
+.whoiam-contenedor img{
+    width: auto;
+    height: 888px;
+    margin-top: 50px;
+}
+.whoiam-contenedor p{
+    text-align: right;
+}
+.whoiam-contacto{
+    background-color: #003A48;
+    background-image: url(./imagenes/aboutme/bg.png);
+    background-size: cover;
+    height: 1080px;
+}
+.whoiam-contacto h2{
+    color: #E6E0D3;
+}
+.whoiam-rrss ul li{
+    display: inline;
+    width: fit-content;
+    margin: 0 auto;
+}
+.whoiam-rrss ul{
+    display: inline;
+    width: fit-content;
+}
+/* fin de whoiam.html */
+
+/* comienzo de mixmatch.html */
+
+.mixmatchbanner{
+    background-color: #003A48;
+    background-image: url(./imagenes/mixandmatch/mm-banner.png);
+    background-size: auto;
+    height: 1080px;
+}
+.mixmatch-section{
+    margin: 30px;
+}
+.mixmatch-section img{
+    width: 400px;
+
+}
+.mixmatch-section p{
+    margin-top: 30px;
+}
+
+/* fin de mixmatch.html */
+
+/* comienzo de portfolio.html */
+
+.portfolio-banner{
+    background-color: #E1C7B0;
+    width: 100%;
+    height: 416px;
+    margin-top: 75px;
+}
+.portfolio-banner h1{
+    color: #F3F6FB;
+    text-align: center;
+    padding-top: 12%;
+}
+.portfolio-descripcion{
+    color: #6B6B6B;
+    text-align: center;
+    margin: 100px;
+}
+.portfolio-img img{
+width: 400px;
+height: 400px;
+}
+.portfolio-img h3{
+    color: #003A48;
+    margin: 30px;
+    font-size: 20px;
+}
+.portfolio-img h2{
+    color: #6B6B6B;
+    margin: 30px;
+    font-size: 25;
+}
+.portfolio-img p{
+    color: #003A48;
+    margin: 30px;
+    font-size: 16px;
+}
+
+/* fin de portfolio.html */
+
+/* comienzo de contacto.html */
+
+.body-contacto{
+    background-color: #003A48;
+    background-image: url(./imagenes/aboutme/bg.png);
+    background-size: auto;
+    height: 1080px;
+}
+.contacto{
+    text-align: center;
+    color: #E6E0D3;
+}
+footer{
+    background-color: #3D3E40;
+    width: auto;
+    height: 402px;
+}
+
+/* fin de contacto.html */
+
+/* comienzo de footer comun en todos los html */
+footer{
+    height: fit-content;
+}
+.rrss ul{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-content: space-around;
+   list-style: none;
+}
+.rrss ul li{
+    padding: 2%;
+}
+.rrss ul li img{
+    width: 100%;
+}
+footer h3{
+    text-align: center;
+    color: #DFDAD7;
+    margin: 40px;
+}
+.nav-footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav-footer ul li{
+    padding: 2%;
+}
+.nav-footer ul li a{
+    color: #D3CBC8;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.nav-footer ul li a:hover{
+color: #016A75;
+}
+.nav-footer ul li a img{
+    width: 82px;
+    height: 72px;
+}
+
+@media  screen and (max-width: 768px) {
+    footer h3{
+        text-align: center;
+        color: #DFDAD7;
+        margin: 20px;
+    }
+    .nav-footer ul li a{
+        font-size: 12px;
+    }
+    .nav-footer ul li a img{
+        width: 42px;
+        height: 32px;
+    }
+}
