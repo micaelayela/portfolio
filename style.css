@@ -47,52 +47,7 @@ body h3{
 color: #DFDAD7;
 text-decoration: overline;
 }
-
-
-@media screen and (max-width: 768px){
-    body h1{
-        font-family: 'Rozha One', serif;
-        font-size: 35px;
-    }
-    body h2{
-        font-family: 'Rozha One', serif;
-        font-size: 25px;
-    }
-    body h3{
-        font-size: 20px;
-    }
-    .nav{
-        flex-direction: column;
-     }
-     .nav ul{
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        height: fit-content;
-        margin-top: 20px;
-        margin-left: 0px;
-    }
-    .nav li{
-        margin-top: 10px;
-    }
-    .nav ul li a{
-        color: black;
-        font-size: 12px;
-    }
-    
-    .nav ul li a:hover{
-        font-size: 14px;
-    }
-    .nav img{
-        width: 40px;
-        height: 35px;
-        margin-top: 25px;
-        margin-left: 10px;
-    }
-}
-
-/* index.html */
-
+/* comienza index */
 .bienvenidos-banner{
     background-color: #003A48;
     background-image: url(./imagenes/bg/Homebanner.jpg);
@@ -100,13 +55,6 @@ text-decoration: overline;
     width: auto;
     height: 100vh;
 }
-@media screen and (max-width: 768px) {
-    .bienvenidos-banner{
-        width: auto;
-        height:100vh;
-    }
-}
-
 .banner1{
     color: #F3F6FB;
     text-align: center;
@@ -150,38 +98,6 @@ text-decoration: overline;
        font-size: 20px;
        text-decoration: none;
     }
-
-@media screen and (max-width: 768px) {
-    .about-me-index{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-    }
-    .about-me-index img{
-        width: 250px;
-        height: 250px;
-    }
-    .about-me-index h2{
-        margin-top: 50px;
-    }
-    .about-me-index p{
-        color: #3D3E40;
-        font-size: 12px;
-        margin-top: 5px;
-    }
-    .boton1 {
-        margin-top: 25px;
-        margin-right: 40px;;
-        }
-    .boton1 a{
-           color:#D3CBC8;
-           font-weight: 500;
-           font-size: 14px;
-           text-decoration: none;
-        }
-}
-
 #portfolio-index{
     background-color: #016A75;
     width:100%;
@@ -230,66 +146,140 @@ text-decoration: overline;
 #mixmatch-index a:hover{
     font-size: 25px;
 }
+
 .free-content{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     justify-content: center;
     width:100%;
     height: 100vh;
 }
-.free-content h2{
+.free-content-h2{
     color: #018F98;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
 }
-.free-content-fotos img{
-  width: 400px;
-  height: 400px;
+.free-content img{
+  width: 350px;
+  height: 350px;
 }
-@media screen and (max-width: 768px) {
 
-.free-content h2{
-    margin-bottom: 5px;
-}
-.free-content-fotos img{
-  width: 200px;
-  height: 200px;
-}
-}
 /* fin del index.html */
 
 /* comienzo de whoiam.html */
-
-.whoiam-contenedor{
-    background-color: #D3CBC8;
-    width: 1440px;
-    height: 540px;
-    margin-top: 60px;
-}
-.whoiam-contenedor h1{
-    text-align: right;
-}
-.whoiam-contenedor img{
-    width: auto;
-    height: 888px;
-    margin-top: 50px;
-}
-.whoiam-contenedor p{
-    text-align: right;
-}
-.whoiam-contacto{
-    background-color: #003A48;
-    background-image: url(./imagenes/aboutme/bg.png);
+.bg {
+    background-image: url('./imagenes/FONDO.png');
+    background-color: #F3F6FB;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    height: 1080px;
+    display: flex;
+    width: 100%;
+}
+
+.bg aside {
+    width: 50%;
+}
+
+.bg aside img {
+    width: 75%;
+}
+
+.bg div {
+    width: 50%;
+}
+
+
+.whoiam-h1 {
+    color: #016A75;
+    width: 45vh;
+}
+
+.whoiam-p {
+    width: 100vh;
+}
+
+.whoiam-rrss {
+    display: flex;
+    align-items: flex-start;
+}
+
+.whoiam-rrss ul li {
+    list-style: none;
+}
+
+.whoiam-rrss ul li img {
+    width: 50%;
+    height: 50%;
+}
+
+.whoiam-boton {
+    background-color: #E1C7B0;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    box-shadow: 0 8px 6px -6px #DFDAD7;
+    padding: 3%;
+}
+
+.whoiam-boton a {
+    text-decoration: none;
+    color: #018F98;
+    text-decoration: none;
+}
+
+.whoiam-boton:hover {
+    background-color: #018F98;
+    color: #DFDAD7;
+}
+
+.iwhoiam-boton a:hover {
+    background-color: #018F98;
+    color: #DFDAD7;
+}
+
+.whoiam-contacto {
+    background-image: url(./imagenes/aboutme/bg.png);
+    width: 100vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.whoiam-contacto h2 {
+    color: #E6E0D3;
+    margin: 50px;
+}
+
+.whoiam-form {
+    color: #E6E0D3;
+}
+
+.whoiam-rrss ul {
+    display: inline;
+    width: fit-content;
+}
+
+.whoiam-contacto{
+    background-image: url(./imagenes/aboutme/bg.png);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
 }
 .whoiam-contacto h2{
     color: #E6E0D3;
+    margin: 50px;
 }
-.whoiam-rrss ul li{
-    display: inline;
-    width: fit-content;
-    margin: 0 auto;
+.whoiam-form{
+    color: #E6E0D3;
 }
 .whoiam-rrss ul{
     display: inline;
@@ -299,22 +289,27 @@ text-decoration: overline;
 
 /* comienzo de mixmatch.html */
 
-.mixmatchbanner{
+.bienvenidos-banner2{
     background-color: #003A48;
     background-image: url(./imagenes/mixandmatch/mm-banner.png);
-    background-size: auto;
-    height: 1080px;
+    width: 100%;
+    height: 100vh;
 }
-.mixmatch-section{
+.mixandmatch{
+    display: flex;
+    justify-content: space-evenly;
     margin: 30px;
 }
-.mixmatch-section img{
+.mixandmatch img{
     width: 400px;
 
 }
-.mixmatch-section p{
+.mixandmatch p{
     margin-top: 30px;
+    color: #003A48;
+    text-align: center;
 }
+
 
 /* fin de mixmatch.html */
 
@@ -336,6 +331,11 @@ text-decoration: overline;
     text-align: center;
     margin: 100px;
 }
+.portfolio-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .portfolio-img img{
 width: 400px;
 height: 400px;
@@ -355,6 +355,9 @@ height: 400px;
     margin: 30px;
     font-size: 16px;
 }
+.boton-contacto{
+    margin: auto;
+}
 
 /* fin de portfolio.html */
 
@@ -364,23 +367,25 @@ height: 400px;
     background-color: #003A48;
     background-image: url(./imagenes/aboutme/bg.png);
     background-size: auto;
-    height: 1080px;
+    width: 100%;
+    height: 100vh;
 }
 .contacto{
+    margin: auto;
     text-align: center;
     color: #E6E0D3;
+    margin-bottom: 45vh;
 }
-footer{
-    background-color: #3D3E40;
-    width: auto;
-    height: 402px;
-}
+
+
 
 /* fin de contacto.html */
 
 /* comienzo de footer comun en todos los html */
 footer{
-    height: fit-content;
+    background-color: #3D3E40;
+    width: auto;
+    height: 402px;
 }
 .rrss ul{
     display: flex;
@@ -422,18 +427,199 @@ color: #016A75;
     width: 82px;
     height: 72px;
 }
-
-@media  screen and (max-width: 768px) {
-    footer h3{
-        text-align: center;
-        color: #DFDAD7;
-        margin: 20px;
+ /* media query general */
+@media screen and (max-width: 768px){
+   
+    body h1{
+        font-family: 'Rozha One', serif;
+        font-size: 35px;
     }
-    .nav-footer ul li a{
+    body h2{
+        font-family: 'Rozha One', serif;
+        font-size: 25px;
+    }
+    body h3{
+        font-size: 20px;
+    }
+    .nav{
+        flex-direction: column;
+     }
+     .nav ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        height: fit-content;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .nav li{
+        margin-top: 10px;
+    }
+    .nav ul li a{
+        color: black;
         font-size: 12px;
     }
-    .nav-footer ul li a img{
-        width: 42px;
-        height: 32px;
+    
+    .nav ul li a:hover{
+        font-size: 14px;
     }
+    .nav img{
+        width: 40px;
+        height: 35px;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+}
+/* index.html */
+@media screen and (max-width: 768px) {
+    .bienvenidos-banner{
+        width: auto;
+        height:100vh;
+    }
+    .about-me-index{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+        }
+    .about-me-index img{
+            width: 250px;
+            height: 250px;
+        }
+    .about-me-index h2{
+            margin-top: 50px;
+        }
+    .about-me-index p{
+            color: #3D3E40;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+    .boton1 {
+            margin-top: 25px;
+            margin-right: 40px;;
+            }
+    .boton1 a{
+               color:#D3CBC8;
+               font-weight: 500;
+               font-size: 14px;
+               text-decoration: none;
+            }
+    .free-content{
+                width:100%;
+                height: 100vh;
+            }
+    .free-content img{
+          width: 200px;
+          height: 200px;
+        }
+/* fin index */
+/* comienza who i am */
+.bg {
+    background-image: url('./imagenes/FONDO.png');
+    background-color: #F3F6FB;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+}
+   
+    aside{
+            grid-area: aside;
+        }
+    aside img{
+            margin-bottom: 20px;
+        }
+    .whoiam-h1{
+            color: #016A75;
+           width: 45vh;
+        }
+        .whoiam-p{
+            grid-area: itemDeGrid-p;
+            width: 75vh;
+        }
+        .whoiam-rrss{
+            grid-area: itemDeGrid-rrss;
+        
+        }
+        .whoiam-rrss ul{
+            display: flex;
+            align-items: flex-start;
+        }
+        .whoiam-rrss ul li{
+            list-style: none;
+        }
+        .whoiam-rrss ul li img{
+            width: 50%;
+            height: 50%;;
+        }
+        .whoiam-boton{
+            grid-area: itemDeGrid-boton;
+            background-color: #E1C7B0;
+            width: fit-content;
+            height: fit-content;
+            border-radius: 20px;
+            box-shadow: 0 8px 6px -6px #DFDAD7;
+            padding: 3%;
+        }
+        .whoiam-boton a{
+            text-decoration: none;
+            color:#018F98;
+            text-decoration: none;
+        }
+    .whoiam-contacto{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        align-items: center;
+        }
+        .whoiam-contacto h2{
+            margin: 30px;
+        }
+      
+/* mix&match */
+
+.bienvenidos-banner2{
+    background-color: #003A48;
+    background-image: url(./imagenes/mixandmatch/mm-banner.png);
+    width: 100%;
+    height: 100vh;
+}
+.mixandmatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.mixandmatch img{
+    width: 200px;
+
+}
+.mixandmatch p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* comienzo portfolio */
+.portfolio-img{
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-img img{
+    width: 200px;
+    height: 200px;
+    }
+        /* comienzo footer */
+    footer h3{
+            text-align: center;
+            color: #DFDAD7;
+            margin: 20px;
+            font-size: 10px;
+        }
+        .nav-footer ul li a{
+            font-size: 12px;
+        }
+        .nav-footer ul li a img{
+            width: 42px;
+            height: 32px;
+        }
 }
