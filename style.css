@@ -146,25 +146,25 @@ text-decoration: overline;
 #mixmatch-index a:hover{
     font-size: 25px;
 }
-
 .free-content{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    width:100%;
+    margin: auto;
+    width: 450px;
     height: 100vh;
 }
-.free-content-h2{
+.free-content h2{
     color: #018F98;
     margin-top: 20px;
     text-align: center;
 }
-.free-content img{
-  width: 350px;
-  height: 350px;
-}
+.carousel-inner img{
+margin-top: 5%;
+width: 450px;
+height: 500px;   
 
+}
 /* fin del index.html */
 
 /* comienzo de whoiam.html */
@@ -505,11 +505,7 @@ color: #016A75;
     .free-content{
                 width:100%;
                 height: 100vh;
-            }
-    .free-content img{
-          width: 200px;
-          height: 200px;
-        }
+            
 /* fin index */
 /* comienza who i am */
 .bg {
