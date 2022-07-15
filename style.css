@@ -18,18 +18,14 @@ body h2{
 body h3{
     font-size: 20px;
 }
-.nav{
-   display: flex;
-   justify-content: space-around;
-   list-style: none;
-}
-.nav img{
+
+.container-fluid img{
     width: 82px;
     height: 72px;
     margin-top: 15px;
 
 }
-.nav ul{
+#navbarText ul{
     display: flex;
     list-style: none;
     align-self: right;
@@ -37,13 +33,13 @@ body h3{
     margin-top: 40px;
     margin-left: 500px;
 }
-.nav ul li a{
+#navbarText ul li a{
     color: black;
     font-size: 16px;
     text-decoration: none;
     margin: 20px;
 }
-.nav ul li a:hover{
+#navbarText ul li a:hover{
 color: #DFDAD7;
 text-decoration: overline;
 }
@@ -382,26 +378,24 @@ height: 400px;
 /* comienzo de footer comun en todos los html */
 footer{
     background-color: #3D3E40;
-    width: auto;
-    height: 402px;
+    width: 100%;
+    height: 20vh;
 }
 .rrss ul{
     display: flex;
    flex-direction: row;
    justify-content: center;
-   align-content: space-around;
    list-style: none;
 }
 .rrss ul li{
-    padding: 2%;
+    padding: 10px;
 }
 .rrss ul li img{
-    width: 100%;
+    width: 50%;
 }
-footer h3{
-    text-align: center;
+.copyright {
     color: #DFDAD7;
-    margin: 40px;
+    text-align: center;
 }
 .nav-footer ul{
     display: flex;
@@ -411,19 +405,19 @@ footer h3{
     list-style: none;
 }
 .nav-footer ul li{
-    padding: 2%;
+  padding-right: 10px;
 }
 .nav-footer ul li a{
     color: #D3CBC8;
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: underline;
 }
 .nav-footer ul li a:hover{
 color: #016A75;
 }
 .nav-footer ul li a img{
-    width: 82px;
-    height: 72px;
+    width: 40px;
+    height: 32px;
 }
  /* media query general */
 @media screen and (max-width: 768px){
@@ -439,33 +433,13 @@ color: #016A75;
     body h3{
         font-size: 20px;
     }
-    .nav{
-        flex-direction: column;
-     }
-     .nav ul{
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        height: fit-content;
-        margin-top: 20px;
-        margin-left: 0px;
-    }
-    .nav li{
-        margin-top: 10px;
-    }
-    .nav ul li a{
+    #navbarText ul li a{
         color: black;
         font-size: 12px;
     }
     
-    .nav ul li a:hover{
+    #navbarText ul li a:hover{
         font-size: 14px;
-    }
-    .nav img{
-        width: 40px;
-        height: 35px;
-        margin-top: 25px;
-        margin-left: 10px;
     }
 }
 /* index.html */
@@ -604,17 +578,25 @@ color: #016A75;
     height: 200px;
     }
         /* comienzo footer */
+        footer{
+            background-color: #3D3E40;
+            width: auto;
+            height: 20vh;
+        }
     footer h3{
             text-align: center;
             color: #DFDAD7;
-            margin: 20px;
+            margin: 2px;
             font-size: 10px;
         }
         .nav-footer ul li a{
             font-size: 12px;
         }
         .nav-footer ul li a img{
-            width: 4px;
+            width: 40px;
             height: 32px;
+        }
+        .rrss ul li img{
+            width: 50%;
         }
 }
