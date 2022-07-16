@@ -25,13 +25,14 @@ body h3{
     margin-top: 15px;
 
 }
+#navbarText{
+    flex-grow: initial;
+}
 #navbarText ul{
     display: flex;
     list-style: none;
-    align-self: right;
     height: fit-content;
     margin-top: 40px;
-    margin-left: 500px;
 }
 #navbarText ul li a{
     color: black;
@@ -157,7 +158,6 @@ text-decoration: overline;
 }
 .carousel-inner img{
 margin-top: 5%;
-width: 450px;
 height: 500px;   
 
 }
@@ -444,10 +444,7 @@ color: #016A75;
 }
 /* index.html */
 @media screen and (max-width: 768px) {
-    .bienvenidos-banner{
-        width: auto;
-        height:100vh;
-    }
+
     .about-me-index{
             display: flex;
             flex-direction: column;
@@ -459,7 +456,7 @@ color: #016A75;
             height: 250px;
         }
     .about-me-index h2{
-            margin-top: 50px;
+            margin: auto;
         }
     .about-me-index p{
             color: #3D3E40;
@@ -477,10 +474,14 @@ color: #016A75;
                text-decoration: none;
             }
     .free-content{
-                width:100%;
-                height: 100vh;
+                width:80%;
+                height: 70vh;
             }
-
+            .carousel-inner img{
+                margin-top: 5%;
+                height: 350px;   
+                
+                }
 /* fin index */
 /* comienza who i am */
 .bg {
