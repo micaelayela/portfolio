@@ -25,7 +25,7 @@ body h3{
     margin-top: 15px;
 
 }
-#navbarText{
+.navbar-collapse{
     flex-grow: initial;
 }
 #navbarText ul{
@@ -40,6 +40,7 @@ body h3{
     text-decoration: none;
     margin: 20px;
 }
+
 #navbarText ul li a:hover{
 color: #DFDAD7;
 text-decoration: overline;
@@ -166,100 +167,67 @@ height: 500px;
 /* comienzo de whoiam.html */
 .bg {
     background-image: url('./imagenes/FONDO.png');
-    background-color: #F3F6FB;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    display: flex;
+    height: 100hv;
+}
+.whoiam-img{
     width: 100%;
+    height: 100%;
 }
-
-.bg aside {
-    width: 50%;
-}
-
-.bg aside img {
-    width: 75%;
-}
-
-.bg div {
-    width: 50%;
-}
-
-
 .whoiam-h1 {
     color: #016A75;
-    width: 45vh;
+   padding-top: 12%;
 }
-
-.whoiam-p {
-    width: 100vh;
+.whoiam-p{
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 4%;
 }
-
 .whoiam-rrss {
     display: flex;
-    align-items: flex-start;
-}
-
-.whoiam-rrss ul li {
     list-style: none;
 }
 
-.whoiam-rrss ul li img {
-    width: 50%;
-    height: 50%;
+.whoiam-rrss li a img{
+padding-right: 20px;
 }
 
-.whoiam-boton {
-    background-color: #E1C7B0;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 20px;
-    box-shadow: 0 8px 6px -6px #DFDAD7;
-    padding: 3%;
-}
-
-.whoiam-boton a {
+.whoiam-boton{
     text-decoration: none;
-    color: #018F98;
+    color: #003A48;
     text-decoration: none;
 }
 
 .whoiam-boton:hover {
-    background-color: #018F98;
-    color: #DFDAD7;
-}
-
-.iwhoiam-boton a:hover {
-    background-color: #018F98;
-    color: #DFDAD7;
-}
-
-.whoiam-contacto {
-    background-image: url(./imagenes/aboutme/bg.png);
-    width: 100vh;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.whoiam-contacto h2 {
-    color: #E6E0D3;
-    margin: 50px;
-}
-
-.whoiam-form {
-    color: #E6E0D3;
-}
-
-.whoiam-rrss ul {
-    display: inline;
-    width: fit-content;
-}
-
+    color: #018F98;
+    text-decoration: overline;
+    }
+    .whoiam-contacto {
+        background-image: url(./imagenes/aboutme/bg.png);
+        width: 100vh;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .whoiam-contacto h2 {
+        color: #E6E0D3;
+        margin: 50px;
+    }
+    
+    .whoiam-form {
+        color: #E6E0D3;
+    }
+    
+    .whoiam-rrss ul {
+        display: inline;
+        width: fit-content;
+    } 
 .whoiam-contacto{
     background-image: url(./imagenes/aboutme/bg.png);
     width: 100%;
@@ -278,6 +246,9 @@ height: 500px;
 }
 .whoiam-form label{
     font-family: 'Questrial', sans-serif;
+}
+#consulta-size{
+    resize: none;
 }
 /* fin de whoiam.html */
 
@@ -350,7 +321,10 @@ height: 400px;
     font-size: 16px;
 }
 .boton-contacto{
-    margin: auto;
+    width: fit-content;
+    margin-left: 45%;
+    margin-bottom: 20px;
+    background-color: #003A48;
 }
 
 /* fin de portfolio.html */
@@ -484,7 +458,16 @@ color: #016A75;
                 }
 /* fin index */
 /* comienza who i am */
-.bg {
+.bg{
+    width: 100%;
+    height: 80vh;
+}
+.whoiam-img{
+    height: 70vh;
+}
+
+
+/* .bg {
     background-image: url('./imagenes/FONDO.png');
     background-color: #F3F6FB;
     background-repeat: no-repeat;
@@ -493,13 +476,7 @@ color: #016A75;
     display: flex;
     width: 100%;
 }
-   
-    aside{
-            grid-area: aside;
-        }
-    aside img{
-            margin-bottom: 20px;
-        }
+
     .whoiam-h1{
             color: #016A75;
            width: 45vh;
@@ -545,7 +522,7 @@ color: #016A75;
         .whoiam-contacto h2{
             margin: 30px;
         }
-      
+       */
 /* mix&match */
 
 .bienvenidos-banner2{
