@@ -527,12 +527,10 @@ footer {
 
     /* fin index */
     /* comienza who i am */
-
-    .whoiam-img {
-        width: auto;
-        height: 70vh;
-    }
-   
+ .whoiam-img{
+    width: 500px;
+    height: auto;
+ }
     /* mix&match */
 
     .bienvenidos-banner2 {
