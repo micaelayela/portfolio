@@ -1,0 +1,129 @@
+.bienvenidos-banner {
+    background-color: map-get($colores, 'color-principal');
+    background-image: url(../imagenes/bg/Homebanner.jpg);
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+}
+
+.banner1 {
+    color: map-get($colores, 'color-secundario');
+    text-align: center;
+    margin-top: 20%;
+}
+
+.about-me-index {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 350px;
+    grid-template-rows: repeat(2, 200px);
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+
+    img {
+        width: 450px;
+        height: 450px;
+        grid-column: 1/4;
+        grid-row: 1/3;
+    }
+    h2 {
+    color: map-get($colores, 'color-principal');
+    margin-top: 100px;  
+    }   
+     p {
+    color: map-get($colores, 'color-neutro');
+    font-size: 16px;
+    margin-top: 15px;
+    }
+}
+
+.boton1 {
+    background-color: map-get($colores, 'color-principal');
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    box-shadow: 0 8px 6px -6px gray;
+    margin-top: 20px;
+    ;
+    padding: 3%;
+
+    a {
+        color: map-get($colores, 'color-terciario');
+        font-weight: 500;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+}
+
+
+#portfolio-index {
+    background-color: map-get($colores, 'color-principal');
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        color: map-get($colores, 'color-terciario');
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+.boton2 a {
+    color: map-get($colores, 'color-principal');
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#mixmatch-index {
+    background-color: map-get($colores, 'color-secundario');
+    background-image: url(../imagenes/bg/homebanner2.png);
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2 {
+        color: map-get($colores, 'color-neutro');
+    }
+    p {
+        font-size: 16px;
+    }
+    a {
+        margin: 20px;
+        color: map-get($colores, 'color-principal');
+        font-size: 20px;
+    }
+    a:hover {
+        font-size: 25px;
+    }
+}
+
+.free-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 450px;
+    height: 100vh;
+    h2 {
+        color: map-get($colores, 'color-principal');
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+.carousel-inner img {
+    margin-top: 5%;
+    height: 500px;
+}
