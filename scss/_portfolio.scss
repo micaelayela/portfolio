@@ -39,3 +39,14 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .portfolio-img {
+        display: flex;
+        flex-direction: column;
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+}
