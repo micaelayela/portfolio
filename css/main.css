@@ -76,6 +76,23 @@ footer {
     .nav-footer ul li:hover {
       color: #003A48; }
 
+@media screen and (max-width: 768px) {
+  footer {
+    width: auto;
+    height: 20vh; }
+    footer h3 {
+      text-align: center;
+      color: #F3F6FB;
+      margin: 2px;
+      font-size: 10px; }
+  .nav-footer ul li img {
+    width: 50%; }
+  .nav-footer ul li a {
+    font-size: 12px; }
+    .nav-footer ul li a img {
+      width: 40px;
+      height: 32px; } }
+
 .bienvenidos-banner {
   background-color: #003A48;
   background-image: url(../imagenes/bg/Homebanner.jpg);

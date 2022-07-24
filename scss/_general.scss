@@ -1,18 +1,22 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Questrial', sans-serif;
     background-color: map-get($colores, 'color-secundario');
+
     h1 {
         font-family: 'Rozha One', serif;
         font-size: 50px;
     }
+
     h2 {
         font-family: 'Rozha One', serif;
         font-size: 30px;
     }
+
     h3 {
         font-size: 20px;
     }
@@ -28,20 +32,23 @@ body {
 .navbar-collapse {
     flex-grow: initial;
 }
-.nav-item{
+
+.nav-item {
     display: flex;
-    justify-content: end;    
+    justify-content: end;
 }
 
 #navbarText ul {
     display: flex;
     list-style: none;
     height: fit-content;
+
     li a {
         color: black;
         font-size: 16px;
         text-decoration: none;
         margin: 20px;
+
         &:hover {
             color: map-get($colores, "color-terciario");
             text-decoration: overline;
@@ -49,7 +56,7 @@ body {
     }
 
 }
- 
+
 footer {
     background-color: map-get($colores, 'color-neutro');
     width: 100%;
@@ -61,14 +68,17 @@ footer {
     flex-direction: row;
     justify-content: center;
     list-style: none;
+
     li {
         padding: 10px;
+
         img {
             width: 50%;
         }
-        
+
     }
 }
+
 .copyright {
     color: map-get($colores, 'color-secundario');
     text-align: center;
@@ -80,20 +90,54 @@ footer {
     justify-content: center;
     align-items: center;
     list-style: none;
+
     li {
         padding-right: 10px;
+
         a {
             color: map-get($colores, 'color-secundario');
             font-size: 12px;
             text-decoration: underline;
+
             img {
                 width: 40px;
                 height: 32px;
             }
         }
+
         &:hover {
             color: map-get($colores, 'color-principal');
         }
-        
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        width: auto;
+        height: 20vh;
+
+        h3 {
+            text-align: center;
+            color: map-get($colores, 'color-secundario');
+            margin: 2px;
+            font-size: 10px;
+        }
+    }
+
+
+    .nav-footer ul li {
+        img {
+            width: 50%;
+        }
+
+        a {
+            font-size: 12px;
+
+            img {
+                width: 40px;
+                height: 32px;
+            }
+        }
     }
 }
