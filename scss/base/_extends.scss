@@ -1,0 +1,8 @@
+%boton{
+    background-color: map-get($colores, 'color-principal');
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    box-shadow: 0 8px 6px -6px gray;
+    text-decoration: none;
+}

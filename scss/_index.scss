@@ -38,22 +38,12 @@
 }
 
 .boton1 {
-    background-color: map-get($colores, 'color-principal');
-    width: fit-content;
-    height: fit-content;
-    border-radius: 20px;
-    box-shadow: 0 8px 6px -6px gray;
-    margin-top: 20px;
-    ;
-    padding: 3%;
-
     a {
         color: map-get($colores, 'color-terciario');
         font-weight: 500;
         font-size: 20px;
         text-decoration: none;
     }
-    
 }
 
 
@@ -70,17 +60,6 @@
         color: map-get($colores, 'color-terciario');
         font-size: 20px;
     }
-}
-
-
-
-
-
-.boton2 a {
-    color: map-get($colores, 'color-principal');
-    font-weight: 500;
-    font-size: 30px;
-    text-decoration: none;
 }
 
 #mixmatch-index {

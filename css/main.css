@@ -108,19 +108,11 @@ footer {
     font-size: 16px;
     margin-top: 15px; }
 
-.boton1 {
-  background-color: #003A48;
-  width: fit-content;
-  height: fit-content;
-  border-radius: 20px;
-  box-shadow: 0 8px 6px -6px gray;
-  margin-top: 20px;
-  padding: 3%; }
-  .boton1 a {
-    color: #D3CBC8;
-    font-weight: 500;
-    font-size: 20px;
-    text-decoration: none; }
+.boton1 a {
+  color: #D3CBC8;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none; }
 
 #portfolio-index {
   background-color: #003A48;
@@ -133,12 +125,6 @@ footer {
   #portfolio-index a {
     color: #D3CBC8;
     font-size: 20px; }
-
-.boton2 a {
-  color: #003A48;
-  font-weight: 500;
-  font-size: 30px;
-  text-decoration: none; }
 
 #mixmatch-index {
   background-color: #F3F6FB;
@@ -241,12 +227,6 @@ footer {
   margin: 30px;
   font-size: 16px; }
 
-.boton-contacto {
-  width: fit-content;
-  margin-left: 45%;
-  margin-bottom: 20px;
-  background-color: #003A48; }
-
 .bg {
   background-image: url("../imagenes/FONDO.png");
   background-repeat: no-repeat;
@@ -318,3 +298,20 @@ footer {
 
 #consulta-size {
   resize: none; }
+
+.boton1, .boton-contacto {
+  background-color: #003A48;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 20px;
+  box-shadow: 0 8px 6px -6px gray;
+  text-decoration: none; }
+
+.boton1 {
+  margin-top: 20px;
+  padding: 3%; }
+
+.boton-contacto {
+  margin-left: 45%;
+  margin-bottom: 20px;
+  background-color: #003A48; }

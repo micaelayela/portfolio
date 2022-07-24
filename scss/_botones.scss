@@ -1,0 +1,14 @@
+@import './base/extends';
+
+.boton1 {
+    @extend %boton;
+    margin-top: 20px;
+    padding: 3%;
+}
+
+.boton-contacto {
+    @extend %boton;
+    margin-left: 45%;
+    margin-bottom: 20px;
+    background-color: map-get($colores, 'color-principal');
+}
