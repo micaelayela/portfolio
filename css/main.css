@@ -163,6 +163,36 @@ footer {
   margin-top: 5%;
   height: 500px; }
 
+@media screen and (max-width: 768px) {
+  .about-me-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center; }
+    .about-me-index img {
+      width: 250px;
+      height: 250px; }
+    .about-me-index h2 {
+      margin: auto; }
+    .about-me-index p {
+      color: #3D3E40;
+      font-size: 12px;
+      margin-top: 5px; }
+  .boton1 {
+    margin-top: 25px;
+    margin-right: 40px; }
+    .boton1 a {
+      color: #F3F6FB;
+      font-weight: 500;
+      font-size: 14px;
+      text-decoration: none; }
+  .free-content {
+    width: 80%;
+    height: 70vh; }
+  .carousel-inner img {
+    margin-top: 5%;
+    height: 350px; } }
+
 .body-contacto {
   background-color: #003A48;
   background-image: url(../imagenes/aboutme/bg.png);
