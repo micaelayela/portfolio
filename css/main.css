@@ -177,6 +177,23 @@ footer {
   margin-top: 5%;
   height: 500px; }
 
+.bienvenidos-banner2 {
+  background-color: #003A48;
+  background-image: url(../imagenes/mixandmatch/mm-banner.png);
+  width: 100%;
+  height: 100vh; }
+
+.mixandmatch {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px; }
+  .mixandmatch img {
+    width: 400px; }
+  .mixandmatch p {
+    margin-top: 30px;
+    color: #003A48;
+    text-align: center; }
+
 .bg {
   background-image: url("../imagenes/FONDO.png");
   background-repeat: no-repeat;
