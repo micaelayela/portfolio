@@ -43,7 +43,7 @@ body {
         text-decoration: none;
         margin: 20px;
         &:hover {
-            color: map-get($colores, "color-secundario");
+            color: map-get($colores, "color-terciario");
             text-decoration: overline;
         }
     }

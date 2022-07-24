@@ -36,7 +36,7 @@ body {
     text-decoration: none;
     margin: 20px; }
     #navbarText ul li a:hover {
-      color: #F3F6FB;
+      color: #D3CBC8;
       text-decoration: overline; }
 
 footer {
@@ -176,3 +176,75 @@ footer {
 .carousel-inner img {
   margin-top: 5%;
   height: 500px; }
+
+.bg {
+  background-image: url("../imagenes/FONDO.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100hv; }
+
+.whoiam-img {
+  width: 100%;
+  height: 100%; }
+
+.whoiam-h1 {
+  color: #003A48;
+  padding-top: 12%; }
+
+.whoiam-p {
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 4%; }
+
+.whoiam-rrss {
+  display: flex;
+  list-style: none; }
+
+.whoiam-rrss li a img {
+  padding-right: 20px; }
+
+.whoiam-boton {
+  text-decoration: none;
+  color: #003A48;
+  text-decoration: none; }
+  .whoiam-boton:hover {
+    color: #018F98;
+    text-decoration: overline; }
+
+.whoiam-contacto {
+  background-image: url(../imagenes/aboutme/bg.png);
+  width: 100vh;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  .whoiam-contacto h2 {
+    color: #D3CBC8;
+    margin: 50px; }
+
+.whoiam-form {
+  color: #F3F6FB; }
+  .whoiam-form label {
+    font-family: 'Questrial', sans-serif; }
+
+.whoiam-rrss ul {
+  display: inline;
+  width: fit-content; }
+
+.whoiam-contacto {
+  background-image: url(../imagenes/aboutme/bg.png);
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px; }
+  .whoiam-contacto h2 {
+    color: #D3CBC8;
+    margin: 50px; }
+
+#consulta-size {
+  resize: none; }
