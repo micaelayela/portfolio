@@ -85,3 +85,9 @@
 #consulta-size {
     resize: none;
 }
+@media screen and (max-width: 768px){
+    .whoiam-img{
+        width: 500px;
+        height: auto;
+     }
+}

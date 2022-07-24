@@ -329,6 +329,11 @@ footer {
 #consulta-size {
   resize: none; }
 
+@media screen and (max-width: 768px) {
+  .whoiam-img {
+    width: 500px;
+    height: auto; } }
+
 .boton1, .boton-contacto {
   background-color: #003A48;
   width: fit-content;
