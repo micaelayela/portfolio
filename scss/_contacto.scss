@@ -1,0 +1,14 @@
+.body-contacto {
+    background-color:map-get($colores, 'color-principal');
+    background-image: url(../imagenes/aboutme/bg.png);
+    background-size: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.contacto {
+    margin: auto;
+    text-align: center;
+    color: map-get($colores, 'color-secundario');
+    margin-bottom: 45vh;
+}

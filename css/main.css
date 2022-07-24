@@ -177,6 +177,19 @@ footer {
   margin-top: 5%;
   height: 500px; }
 
+.body-contacto {
+  background-color: #003A48;
+  background-image: url(../imagenes/aboutme/bg.png);
+  background-size: auto;
+  width: 100%;
+  height: 100vh; }
+
+.contacto {
+  margin: auto;
+  text-align: center;
+  color: #F3F6FB;
+  margin-bottom: 45vh; }
+
 .bienvenidos-banner2 {
   background-color: #003A48;
   background-image: url(../imagenes/mixandmatch/mm-banner.png);
