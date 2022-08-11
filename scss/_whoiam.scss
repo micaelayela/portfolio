@@ -58,9 +58,20 @@
 .whoiam-form {
    
     color: map-get($colores, 'color-secundario');
-    label {
-       
-        padding: 10px;
+    input {
+        margin-bottom: 20px;
+        border: 0px; 
+       border-bottom: solid;
+       border-color: white;
+       background-color: transparent;
+        font-family: 'Questrial', sans-serif;
+    }
+    textarea {
+        margin-bottom: 20px;
+        border: 0px; 
+       border-bottom: solid;
+       border-color: white;
+       background-color: transparent;
         font-family: 'Questrial', sans-serif;
     }
 }

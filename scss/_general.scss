@@ -60,7 +60,7 @@ body {
 footer {
     background-color: map-get($colores, 'color-neutro');
     width: 100%;
-    height: 20vh;
+  
 }
 
 .rrss ul {
@@ -124,12 +124,14 @@ footer {
     }
     footer {
         width: auto;
-        height: 20vh;
 
         h3 {
             text-align: center;
             color: map-get($colores, 'color-secundario');
             margin: 2px;
+            font-size: 10px;
+        }
+        .copyright{
             font-size: 10px;
         }
     }

@@ -41,8 +41,7 @@ body {
 
 footer {
   background-color: #3D3E40;
-  width: 100%;
-  height: 20vh; }
+  width: 100%; }
 
 .rrss ul {
   display: flex;
@@ -84,12 +83,13 @@ footer {
   h3 {
     font-size: 15px; }
   footer {
-    width: auto;
-    height: 20vh; }
+    width: auto; }
     footer h3 {
       text-align: center;
       color: #F3F6FB;
       margin: 2px;
+      font-size: 10px; }
+    footer .copyright {
       font-size: 10px; }
   .nav-footer ul li img {
     width: 50%; }
@@ -355,8 +355,19 @@ footer {
 
 .whoiam-form {
   color: #F3F6FB; }
-  .whoiam-form label {
-    padding: 10px;
+  .whoiam-form input {
+    margin-bottom: 20px;
+    border: 0px;
+    border-bottom: solid;
+    border-color: white;
+    background-color: transparent;
+    font-family: 'Questrial', sans-serif; }
+  .whoiam-form textarea {
+    margin-bottom: 20px;
+    border: 0px;
+    border-bottom: solid;
+    border-color: white;
+    background-color: transparent;
     font-family: 'Questrial', sans-serif; }
 
 .whoiam-rrss ul {
