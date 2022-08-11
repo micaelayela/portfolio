@@ -6,9 +6,8 @@
     h1 {
         color: map-get($colores, 'color-secundario');
         text-align: center;
-        padding-top: 25vh;
+        padding-top: 15vh;
     }
-    
 }
 
 .portfolio-descripcion {
@@ -42,7 +41,7 @@
 @media screen and (max-width: 768px) {
     .portfolio-img {
         display: flex;
-        flex-direction: column;
+        align-items: center;
         img {
             width: 200px;
             height: 200px;
