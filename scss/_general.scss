@@ -123,18 +123,28 @@ footer {
     }
 }
 @media screen and (max-width: 480px) {
+    body{
     h1 {
-        font-size: 20px;
+        font-size: 40px;
     }
+    
     h2 {
-        font-size: 15px;
+        font-size: 30px;
     }
     h3 {
-        font-size: 13px;
+        font-size: 25px;
+    }
+    p{
+        font-size: 15px;
     }
     .nav-footer ul li {
         a {
             font-size: 8px;
         }
     }
+    .navbar-brand img{
+        width: 60px;
+        height: 60px;
+    }
+}
 }

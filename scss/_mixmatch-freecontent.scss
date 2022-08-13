@@ -1,0 +1,72 @@
+.h1-ext {
+    background-color: map-get($colores, 'color-terciario');
+    padding: 50px;
+    text-align: center;
+    color: map-get($colores, 'color-principal');
+}
+
+.free-quotes {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+
+    img {
+        width: 400px;
+        padding: 15px;
+    }
+}
+
+.otros-contenidos {
+    display: flex;
+    justify-content: space-evenly;
+
+    li {
+        list-style: none;
+        a {
+            margin-top: 30px;
+            color: map-get($colores, 'color-principal');
+            text-align: center;
+            text-decoration: none;
+
+            &:hover {
+                color: map-get($colores, "color-terciario");
+                text-decoration: overline;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .free-quotes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+
+        img {
+            width: 300px;
+            margin: 10px;
+
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .h1-ext {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .free-quotes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+
+        img {
+            width: 200px;
+            margin: 10px;
+
+        }
+    }
+}

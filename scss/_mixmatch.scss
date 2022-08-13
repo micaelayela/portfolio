@@ -9,16 +9,23 @@
     display: flex;
     justify-content: space-evenly;
     margin: 30px;
+}
+.mixmatch-content{
+    display: flex;
+    flex-direction: column;
     img {
         width: 400px;
-    
     }
-    p {
+    a {
         margin-top: 30px;
         color:map-get($colores, 'color-principal');
         text-align: center;
-    }
-    
+        text-decoration: none;
+        &:hover {
+            color: map-get($colores, "color-terciario");
+            text-decoration: overline;
+        }
+    } 
 }
 @media screen and (max-width: 768px) {
     .bienvenidos-banner2 {

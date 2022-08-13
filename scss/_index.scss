@@ -156,3 +156,32 @@
     }
 
 }
+
+@media screen and (max-width: 480px) {
+
+    .about-me-index {
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    .boton1 {
+        margin-top: 25px;
+        margin-right: 40px;
+        a {
+            color: map-get($colores, 'color-secundario');
+            font-weight: 500;
+            font-size: 14px;
+            text-decoration: none;
+        }
+    
+    }
+
+    .carousel-inner img {
+        height: 180px;
+        width: 50vh;
+
+    }
+
+}

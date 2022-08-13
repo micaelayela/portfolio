@@ -100,14 +100,19 @@ footer {
       height: 32px; } }
 
 @media screen and (max-width: 480px) {
-  h1 {
-    font-size: 20px; }
-  h2 {
+  body h1 {
+    font-size: 40px; }
+  body h2 {
+    font-size: 30px; }
+  body h3 {
+    font-size: 25px; }
+  body p {
     font-size: 15px; }
-  h3 {
-    font-size: 13px; }
-  .nav-footer ul li a {
-    font-size: 8px; } }
+  body .nav-footer ul li a {
+    font-size: 8px; }
+  body .navbar-brand img {
+    width: 60px;
+    height: 60px; } }
 
 .bienvenidos-banner {
   background-color: #003A48;
@@ -229,6 +234,22 @@ footer {
     height: 250px;
     width: 50vh; } }
 
+@media screen and (max-width: 480px) {
+  .about-me-index img {
+    width: 200px;
+    height: 200px; }
+  .boton1 {
+    margin-top: 25px;
+    margin-right: 40px; }
+    .boton1 a {
+      color: #F3F6FB;
+      font-weight: 500;
+      font-size: 14px;
+      text-decoration: none; }
+  .carousel-inner img {
+    height: 180px;
+    width: 50vh; } }
+
 .body-contacto {
   background-color: #003A48;
   background-image: url(../imagenes/aboutme/bg.png);
@@ -257,12 +278,20 @@ footer {
   display: flex;
   justify-content: space-evenly;
   margin: 30px; }
-  .mixandmatch img {
+
+.mixmatch-content {
+  display: flex;
+  flex-direction: column; }
+  .mixmatch-content img {
     width: 400px; }
-  .mixandmatch p {
+  .mixmatch-content a {
     margin-top: 30px;
     color: #003A48;
-    text-align: center; }
+    text-align: center;
+    text-decoration: none; }
+    .mixmatch-content a:hover {
+      color: #D3CBC8;
+      text-decoration: overline; }
 
 @media screen and (max-width: 768px) {
   .bienvenidos-banner2 {
@@ -485,6 +514,57 @@ footer {
   .whoiam-rrss ul {
     display: inline;
     width: fit-content; } }
+
+.h1-ext {
+  background-color: #D3CBC8;
+  padding: 50px;
+  text-align: center;
+  color: #003A48; }
+
+.free-quotes {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px; }
+  .free-quotes img {
+    width: 400px;
+    padding: 15px; }
+
+.otros-contenidos {
+  display: flex;
+  justify-content: space-evenly; }
+  .otros-contenidos li {
+    list-style: none; }
+    .otros-contenidos li a {
+      margin-top: 30px;
+      color: #003A48;
+      text-align: center;
+      text-decoration: none; }
+      .otros-contenidos li a:hover {
+        color: #D3CBC8;
+        text-decoration: overline; }
+
+@media screen and (max-width: 768px) {
+  .free-quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px; }
+    .free-quotes img {
+      width: 300px;
+      margin: 10px; } }
+
+@media screen and (max-width: 480px) {
+  .h1-ext {
+    font-size: 30px;
+    padding: 20px; }
+  .free-quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px; }
+    .free-quotes img {
+      width: 200px;
+      margin: 10px; } }
 
 .boton1, .boton-contacto {
   background-color: #003A48;
