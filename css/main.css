@@ -158,6 +158,8 @@ footer {
   #portfolio-index a {
     color: #D3CBC8;
     font-size: 20px; }
+  #portfolio-index a:hover {
+    font-size: 25px; }
 
 #mixmatch-index {
   background-color: #F3F6FB;
@@ -232,13 +234,18 @@ footer {
   background-image: url(../imagenes/aboutme/bg.png);
   background-size: auto;
   width: 100%;
-  height: 100vh; }
+  height: 70%; }
 
-.contacto {
-  margin: auto;
-  text-align: center;
+.banner2 {
   color: #F3F6FB;
-  margin-bottom: 45vh; }
+  text-align: center;
+  margin-top: 10%; }
+
+.contacto-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px; }
 
 .bienvenidos-banner2 {
   background-color: #003A48;
@@ -492,7 +499,7 @@ footer {
   text-decoration: none; }
 
 .boton1 {
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 3%; }
 
 .boton-contacto {

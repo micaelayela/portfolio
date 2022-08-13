@@ -60,6 +60,9 @@
         color: map-get($colores, 'color-terciario');
         font-size: 20px;
     }
+    a:hover {
+        font-size: 25px;
+    }
 }
 
 #mixmatch-index {

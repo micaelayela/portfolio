@@ -3,12 +3,22 @@
     background-image: url(../imagenes/aboutme/bg.png);
     background-size: auto;
     width: 100%;
-    height: 100vh;
+    height: 70%;
 }
-
-.contacto {
-    margin: auto;
-    text-align: center;
+.banner2 {
     color: map-get($colores, 'color-secundario');
-    margin-bottom: 45vh;
+    text-align: center;
+    margin-top: 10%;
+}
+.contacto-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+@media screen and (max-width: 768px){
+   
+}
+@media screen and (max-width: 480px){
+
 }
