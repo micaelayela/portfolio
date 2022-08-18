@@ -533,9 +533,10 @@ footer {
   display: flex;
   justify-content: space-evenly; }
   .otros-contenidos li {
-    list-style: none; }
+    list-style: none;
+    margin-bottom: 3%; }
     .otros-contenidos li a {
-      margin-top: 30px;
+      margin-top: 3%;
       color: #003A48;
       text-align: center;
       text-decoration: none; }
