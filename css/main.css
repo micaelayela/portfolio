@@ -379,12 +379,11 @@ footer {
 .whoiam-rrss {
   display: flex;
   list-style: none;
-  margin-top: 10%; }
+  margin-top: 5%; }
   .whoiam-rrss li a img {
     padding-right: 20px; }
 
 .whoiam-boton {
-  margin: auto;
   color: #003A48;
   text-decoration: none; }
   .whoiam-boton:hover {
@@ -575,7 +574,7 @@ footer {
 .boton1, .boton-contacto {
   background-color: #003A48;
   width: fit-content;
-  height: 10%;
+  height: fit-content;
   border-radius: 20px;
   box-shadow: 0 8px 6px -6px gray;
   text-decoration: none;

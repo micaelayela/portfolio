@@ -23,13 +23,12 @@
 .whoiam-rrss {
     display: flex;
     list-style: none;
-    margin-top: 10%;
+    margin-top: 5%;
     li a img {
         padding-right: 20px;
     }
 }
 .whoiam-boton {
-    margin: auto;
     color: map-get($colores, 'color-principal');
     text-decoration: none;
     &:hover {
