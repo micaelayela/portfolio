@@ -3,6 +3,7 @@
     padding: 0;
 }
 body {
+    overflow-x: hidden;
     font-family: 'Questrial', sans-serif;
     background-color: map-get($colores, 'color-secundario');
     h1 {
