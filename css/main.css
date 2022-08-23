@@ -279,19 +279,20 @@ footer {
   justify-content: space-evenly;
   margin: 30px; }
 
-.mixmatch-content {
+.mixandmatch {
   display: flex;
-  flex-direction: column; }
-  .mixmatch-content img {
-    width: 400px; }
-  .mixmatch-content a {
+  justify-content: center; }
+  .mixandmatch .mixmatch-content {
+    flex-direction: column;
     margin-top: 30px;
     color: #003A48;
     text-align: center;
     text-decoration: none; }
-    .mixmatch-content a:hover {
+    .mixandmatch .mixmatch-content:hover {
       color: #D3CBC8;
       text-decoration: overline; }
+    .mixandmatch .mixmatch-content img {
+      width: 400px; }
 
 @media screen and (max-width: 768px) {
   .bienvenidos-banner2 {
@@ -300,15 +301,16 @@ footer {
     width: 100%;
     height: 100vh; }
   .mixandmatch {
-    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 30px; }
-    .mixandmatch img {
-      width: 200px; }
-    .mixandmatch p {
+    .mixandmatch .mixmatch-content {
+      display: flex;
+      flex-direction: column;
       margin-top: 15px;
-      margin-bottom: 15px; } }
+      margin-bottom: 15px; }
+      .mixandmatch .mixmatch-content img {
+        width: 200px; } }
 
 .portfolio-banner {
   background-color: #D3CBC8;

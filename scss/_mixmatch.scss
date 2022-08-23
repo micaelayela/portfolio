@@ -10,22 +10,25 @@
     justify-content: space-evenly;
     margin: 30px;
 }
-.mixmatch-content{
+.mixandmatch {
     display: flex;
-    flex-direction: column;
-    img {
-        width: 400px;
-    }
-    a {
+    justify-content: center;
+    .mixmatch-content{
+        flex-direction: column;
         margin-top: 30px;
-        color:map-get($colores, 'color-principal');
-        text-align: center;
-        text-decoration: none;
-        &:hover {
-            color: map-get($colores, "color-terciario");
-            text-decoration: overline;
+            color:map-get($colores, 'color-principal');
+            text-align: center;
+            text-decoration: none;
+            &:hover {
+                color: map-get($colores, "color-terciario");
+                text-decoration: overline;
+            }
+        img {
+            width: 400px;
         }
-    } 
+        
+    }
+    
 }
 @media screen and (max-width: 768px) {
     .bienvenidos-banner2 {
@@ -36,17 +39,18 @@
     }
 
     .mixandmatch {
-        display: flex;
         flex-direction: column;
         align-items: center;
         margin: 30px;
-        img {
-            width: 200px;
-    
-        }
-        p {
+        .mixmatch-content{
+            display: flex;
+            flex-direction: column;
             margin-top: 15px;
             margin-bottom: 15px;
+            img {
+                width: 200px;
+        
+            }
         }
     }
 }
