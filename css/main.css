@@ -538,15 +538,15 @@ footer {
 .otros-contenidos {
   display: flex;
   justify-content: space-evenly; }
-  .otros-contenidos li {
+  .otros-contenidos ul li {
     list-style: none;
     margin-bottom: 3%; }
-    .otros-contenidos li a {
+    .otros-contenidos ul li a {
       margin-top: 3%;
       color: #003A48;
       text-align: center;
       text-decoration: none; }
-      .otros-contenidos li a:hover {
+      .otros-contenidos ul li a:hover {
         color: #D3CBC8;
         text-decoration: overline; }
 
